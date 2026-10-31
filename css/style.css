@@ -337,3 +337,6 @@ button.lnk{border:0;width:100%;text-align:left;cursor:pointer;font-family:var(--
 .fgb .pill svg.ic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none;margin:0}
 .fgb .pill:hover{background:#fff;color:#17131f}
 @media(max-width:640px){.fgb{flex-direction:column;align-items:stretch}.fgb .pill{width:100%;justify-content:space-between}.fgb .pill .lbl{display:flex;align-items:center;gap:12px}}
+
+/* текст для поисковиков и скринридеров, не виден глазу */
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
